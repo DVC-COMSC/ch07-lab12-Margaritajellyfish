@@ -18,4 +18,4 @@ for i in range(cnum):
     csum = 0
     for j in range(rnum):
         csum += numbers[j][i]
-    print(f'The summation of column {0}:{1}'.format(i, csum))
+    print('The summation of column {0}:{1}'.format(i, csum))
